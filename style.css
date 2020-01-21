@@ -1,0 +1,58 @@
+
+
+h1 {
+
+    text-align: center;
+    font-family: 'Lucida', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, serif;
+    font-size: 5em;
+    width: 100%;
+}
+button {
+
+    margin-left: 270px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+div {
+
+    color: red;
+    margin-top: 40px;
+    border: 2px solid black;
+    width: 12%;
+    font-size: 1.5em;
+    
+    
+}
+
+.joueur, .scoreJoueur {
+
+    color: blue;
+}
+
+.scoreRobot {
+
+    color: red;
+}
+
+.resultat {
+
+    color: green;
+}
+
+.reset {
+
+    font-size: 1.5em;
+}
+
+.joueurs {
+
+    display: flex;
+    width: 100%;
+    font-size: 1em;
+    border: none;
+    justify-content: space-around;
+    
+}
+
