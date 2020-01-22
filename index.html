@@ -3,32 +3,36 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel = "stylesheet" href = "style.css"/>
-
     <title>Shifumi</title>
   </head>
-
   <body>
-
-    <h1>Shifumi de Fabio le rigolo</h1>
-
-  <div class="scoreJoueur">Votre score :</div>
-  <div class="scoreRobot">Score du Robot :</div>
-    <button class="button"> <img src="Images/pierre.jpg" alt="Pierre"></button>
-    <button class="button"> <img src="Images/feuille.jpg" alt="Feuille"></button>
-    <button class="button"> <img src="Images/ciseaux.jpg" alt="Ciseaux"></button>
-
-  <div class="joueurs">
-    <div class="joueur">Vous avez joué :</div>
-    <div class="robot">Robot a joué :</div>
-    <div class="resultat">Résultat :</div>
-  </div>
-
-
-  <button class="reset">Réinitialiser les scores</button>
-
+    <h1>Shifumi</h1>
+    <div class="container">
+      <p class="scoreJoueur">Votre score :</p>
+      <p class="scoreRobot">Score du Robot :</p>
+      <div class="bloc">
+        <div class="row">
+          <div class="col-12 col-lg-4">
+            <button class="button"> <img src="Images/pierre.jpg" alt="Pierre"></button>
+          </div>
+          <div class="col-12 col-lg-4">
+            <button class="button"> <img src="Images/feuille.jpg" alt="Feuille"></button>
+          </div>
+          <div class="col-12 col-lg-4">
+            <button class="button"> <img src="Images/ciseaux.jpg" alt="Ciseaux"></button>
+          </div>
+      </div>
+        
+      </div>
+        <div class="joueurs">
+            <p class="joueur">Vous avez joué :</p>
+            <p class="robot">Robot a joué :</p>
+            <p class="resultat">Résultat :</p>
+        </div>
+        <button class="reset">Réinitialiser les scores</button>
+</div>
 
   <script src="shifumi.js"></script>
     
