@@ -1,2 +1,2 @@
 # Shifumi
-Petit Shifumi de débutant en Javascript
+Petit Shifumi en Javascript
